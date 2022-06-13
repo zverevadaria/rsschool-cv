@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section">
+                <img src="assets/img/avatar.jpeg" alt="Avatar" class="section-avatar">
+                
+            </section>
+            <section>
+                <div class="section-profile-title">
+                    <h1 class="main_title">Daria Boykova</h1>
+                    <hr>
+                    <h3>Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section section-contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                   <li class="github">Github: <a href="https://github.com/zverevadaria" class="github_link">zverevadaria</a></li> 
+                   <li class="mail">e-mail: <a href="mailto:irinainina@gmail.com" class="mail_link">boykovadaria8@yandex.ru</a></li>
+                   <li class="discord">Discord: хрю-хрю№2327</li>
+                </ul>
+            </section> 
+            <section class="section" id="about">
+                <h2 class="section-title">About me</h2>
+                <p>
+                    I want to learn Front-End Development in RSSchool
+                </p>
+            </section>
+            <section class="section" id="skills"> 
+                <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>GIT</li>
+                        <li>JavaScript</li>
+                    </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>function reverse_a_number(n) {
+    n = n + "";
+    return n.split("").reverse().join("");
+    }
+        
+document.writeln(reverse_a_number(258961)); // 169852</code></pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Moscow Finance and Law University </p>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A2 - Pre-Intermediate</p>
+            </section>
+           <section class="section">
+               <h2>Projects:</h2>
+               <ul>
+                   <li><a href="https://zverevadaria.github.io/rsschool-cv/">CV</a></li>
+               </ul>
+           </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div><a href="https://github.com/zverevadaria"><img src="assets/img/GitHub-Mark-64px.png" alt=""></a></div>
+            <div><a href="https://rs.school/js-stage0/"><img src="assets/img/rs-logo.svg" alt="rss" class="rss-img"></a></div>
+            © 2022
+        </div>
+    </footer>
+</body>
+</html>
