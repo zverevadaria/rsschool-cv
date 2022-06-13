@@ -1,0 +1,109 @@
+* {
+  font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+hr {
+    margin: 20px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  }
+
+
+h1, h3 {
+  color: #4d6569;
+}
+
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #4d6569;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #daede7;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.header {
+  background-color: #75a29f;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
+}
+ 
+.section {
+    width: 50%;
+    color: #75a29f;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: #4d6569;
+  }
+
+.rss-img {
+    width: 120px;
+    height: 50px;
+}
+
+
+.footer {
+  background-color: #75a29f;
+  color: #4d6569;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github, .mail, .discord {
+  font-weight: bold;
+}
+
+.github_link, .mail_link {
+  font-weight: normal;
+  text-decoration: none;
+  color:#8c8b8b;
+}
